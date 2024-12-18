@@ -10,7 +10,7 @@ function Header({ title }) {
     </header>
   );
 }
-Header.PropTypes = {
+Header.propTypes = {
   title: PropTypes.string,
 };
 
@@ -37,7 +37,7 @@ function Nav(topics) {
     </nav>
   );
 }
-Nav.PropTypes = {
+Nav.propTypes = {
   topics: PropTypes.array,
 };
 
@@ -49,7 +49,7 @@ function Article({ title, body }) {
     </article>
   );
 }
-Article.PropTypes = {
+Article.propTypes = {
   title: PropTypes.string,
   body: PropTypes.string,
 };
